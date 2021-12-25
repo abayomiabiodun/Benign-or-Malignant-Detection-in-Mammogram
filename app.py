@@ -60,7 +60,7 @@ def run():
             st.warning(
                 "Hello: " + fn + " || "
                 "Hospital ID: " + Hospital_id + " || "
-                "You have Benign" + "||"
+                "According to our calculation based on your test result, you have Benign" + "||"
                 "Try to see doctor for further consultation"
             )
 
