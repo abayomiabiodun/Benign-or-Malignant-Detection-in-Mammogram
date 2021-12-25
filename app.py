@@ -57,7 +57,7 @@ def run():
                 "Try to see doctor for further consultation"
             )
         else:
-            st.success(
+            st.warning(
                 "Hello: " + fn + " || "
                 "Hospital ID: " + Hospital_id + " || "
                 "Congratulation!!! You have Benign" + "||"
