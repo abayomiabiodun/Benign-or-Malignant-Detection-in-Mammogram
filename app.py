@@ -53,14 +53,14 @@ def run():
             st.error(
                 "Hello: " + fn + " || "
                 "Hospital ID: " + Hospital_id + " || "
-                "According to our calculation based on your test result, you have Malignant" + "||"
+                "According to our calculation based on your test result, your mammographic mass severity is Malignant" + "||"
                 "Try to see doctor for further consultation"
             )
         else:
             st.warning(
                 "Hello: " + fn + " || "
                 "Hospital ID: " + Hospital_id + " || "
-                "According to our calculation based on your test result, you have Benign" + "||"
+                "According to our calculation based on your test result, your mammographic mass severity is Benign" + "||"
                 "Try to see doctor for further consultation"
             )
 
