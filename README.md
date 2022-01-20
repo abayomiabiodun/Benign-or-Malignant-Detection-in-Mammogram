@@ -2,7 +2,7 @@
 ## Prediction whether a mammogram mass is benign or malignant 
 ###  we'll be using the mammographic "masses" public dataset from the UCI repository (source: http://archive.ics.uci.edu/ml/machine-learning-databases/mammographic-masses/)
 ### This data contains 961 instance detected in mammograms and contains the following attributes
-### 1. BI-RADs assesment 1 to 5 (ordinal)
+### 1. BI-RADs assesment 0 to 55 (ordinal)
 ### 2. Age: patient's age in years (integer)
 ### 3. Shape: mass shape round=1, oval=2, lobular=3, irregular=4 (nominal)
 ### 4. Margin: mass margin: circumscribed=1 microlobulated=2 obscured=3 ill-defined=4 spiculated=5 (nominal)
