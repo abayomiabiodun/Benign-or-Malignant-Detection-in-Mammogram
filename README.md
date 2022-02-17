@@ -1,13 +1,14 @@
 ## Benign-or-Malignant-Detection-in-Mammogram
 ## Prediction whether a mammogram mass is benign or malignant 
- we'll be using the mammographic "masses" public dataset from the UCI repository (source: http://archive.ics.uci.edu/ml/machine-learning-databases/mammographic-masses/)
+ we'll be using the mammographic "masses" public dataset from the UCI repository 
+ (source: http://archive.ics.uci.edu/ml/machine-learning-databases/mammographic-masses/)
  This data contains 961 instance detected in mammograms and contains the following attributes
-### 1. BI-RADs assesment 0 to 55 (ordinal)
-### 2. Age: patient's age in years (integer)
-### 3. Shape: mass shape round=1, oval=2, lobular=3, irregular=4 (nominal)
-### 4. Margin: mass margin: circumscribed=1 microlobulated=2 obscured=3 ill-defined=4 spiculated=5 (nominal)
-### 5. Density: mass density high=1 iso=2 low=3 fat-containing=4 (ordinal)
-### 6. Severity: benign=0 or malignant=1 (binominal)
+ 1. BI-RADs assesment 0 to 55 (ordinal)
+ 2. Age: patient's age in years (integer)
+ 3. Shape: mass shape round=1, oval=2, lobular=3, irregular=4 (nominal)
+ 4. Margin: mass margin: circumscribed=1 microlobulated=2 obscured=3 ill-defined=4 spiculated=5 (nominal)
+ 5. Density: mass density high=1 iso=2 low=3 fat-containing=4 (ordinal)
+ 6. Severity: benign=0 or malignant=1 (binominal)
 
 ### BI-RADS is an assesment  of how confident the severity classification is: it is not a "predictive" atttribute and so we will discard it. The age, shape, margin and density attributes are the features that we will build our model with and "severity" is the classification we will attempt to predict based on those attributes 
 
