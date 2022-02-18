@@ -15,10 +15,9 @@
   Although "shape" and "margin" are nominal data types which sklearn typically doesn't deal with how well they are close enough to ordinal that we shouldn't just discard them. The "shape" for example is ordered increasingly from round to irregular 
 
   A lot of unnecessary anguish and surgery arises from false positives arising from mammogram results if we can build a better way to interpret them through supervised machine learning it could improve alot of lives 
-
-## machine learning techniques used in this project
-### Different supervised machine learning techniques to this dataset and see which one yields the highest accuracy as measured with K-fold across validation(k=10)
-### .Decision tree
+  machine learning techniques used in this project
+  Different supervised machine learning techniques to this dataset and see which one yields the highest accuracy as measured with K-fold across validation(k=10)
+  .Decision tree
 ### .Random forest
 ### .KNN
 ### .Naive Bayes
