@@ -18,8 +18,8 @@
   machine learning techniques used in this project
   Different supervised machine learning techniques to this dataset and see which one yields the highest accuracy as measured with K-fold across validation(k=10)
   .Decision tree
-### .Random forest
-### .KNN
+  .Random forest
+  .KNN
 ### .Naive Bayes
 ### .SVM
 ### .Neural network using Keras
