@@ -17,14 +17,14 @@
   A lot of unnecessary anguish and surgery arises from false positives arising from mammogram results if we can build a better way to interpret them through supervised machine learning it could improve alot of lives 
   machine learning techniques used in this project
   ##Different supervised machine learning techniques to this dataset and see which one yields the highest accuracy as measure with K-fold across validation(k=10)
-   1.Decision tree
-   2.Random forest
-   3.KNN
-  4.Naive Bayes
+ ### 1.Decision tree
+ ### 2.Random forest
+ ### 3.KNN
+ ### 4.Naive Bayes
 
-### .SVM
-### .Neural network using Keras
-### .Other supervise learning techniques that is not mentioned here 
+### 5.SVM
+### 6.Neural network using Keras
+### Other supervise learning techniques that is not mentioned here 
 ### The data used needs to be cleaned, many rows containing missing data and there may be erroneous data identifiable as outliers as well 
 ### Techniques like SVM require the input data to be Normalized first and some other techniques used to need hyperparameters tunning that need to be tunned to give best accuracy score 
 ### And Multi level perceptron turn out to be best. It has accuracy score of 84%
