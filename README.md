@@ -23,9 +23,9 @@
 #### 4.Naive Bayes
 #### 5.SVM
 #### 6.Neural network using Keras
-#### Other supervise learning techniques that is not mentioned here 
-### The data used needs to be cleaned, many rows containing missing data and there may be erroneous data identifiable as outliers as well 
-### Techniques like SVM require the input data to be Normalized first and some other techniques used to need hyperparameters tunning that need to be tunned to give best accuracy score 
-### And Multi level perceptron turn out to be best. It has accuracy score of 84%
+ Other supervise learning techniques that is not mentioned here 
+ The data used needs to be cleaned, many rows containing missing data and there may be erroneous data identifiable as outliers as well 
+ Techniques like SVM require the input data to be Normalized first and some other techniques used to need hyperparameters tunning that need to be tunned to give best accuracy score 
+ And Multi level perceptron turn out to be best. It has accuracy score of 84%
 ### I integrate the model in a strealit web app and deploy it using streamlit. To see the demo version click the link below 
 ### https://share.streamlit.io/abayomi2020-data/benign-or-malignant-detection-in-mammogram/app.py
