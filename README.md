@@ -16,7 +16,7 @@
 
   A lot of unnecessary anguish and surgery arises from false positives arising from mammogram results if we can build a better way to interpret them through supervised machine learning it could improve alot of lives 
   machine learning techniques used in this project
-  ## Different supervised machine learning techniques to this dataset and see which one yields the highest accuracy as measure with K-fold across    validation(k=10)
+  Different supervised machine learning techniques to this dataset and see which one yields the highest accuracy as measure with K-fold across    validation(k=10)
 #### 1.Decision tree
 #### 2.Random forest
 #### 3.KNN
